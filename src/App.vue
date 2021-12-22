@@ -11,6 +11,9 @@ import Index from './pages/index'
 
 export default {
   name: 'App',
+  created() {
+    document.title = '瑾生梦红楼'
+  },
   components: {
     Index,
   }
