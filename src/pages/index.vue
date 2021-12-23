@@ -71,75 +71,99 @@ export default {
       exportModalVisible: false,
       // changeDataVisibel: false,
       isExport: false,
-      inputValue: "111",
+      inputValue: "",
       // totalStats: 0
       // totalAbilityValue: 0,
       playerData: {
         stats: [
           {
-            name: "stat1",
-            value: 0,
+            name: "蛮力",
+            value: 2,
             abilities: [
               {
-                name: "ab1",
+                name: "格斗",
                 value: 0,
               },
               {
-                name: "ab2",
+                name: "抵挡",
                 value: 0,
               },
               {
-                name: "ab3",
-                value: 0,
-              },
-              {
-                name: "ab4",
-                value: 0,
-              },
-              {
-                name: "ab5",
-                value: 0,
-              },
-              {
-                name: "ab6",
+                name: "投掷",
                 value: 0,
               },
             ],
           },
           {
-            name: "stat2",
+            name: "运动",
             value: 2,
             abilities: [
               {
-                name: "ab1",
-                value: 2,
+                name: "跑跳",
+                value: 0,
               },
               {
-                name: "ab2",
-                value: 2,
+                name: "游泳",
+                value: 0,
               },
               {
-                name: "ab3",
+                name: "骑行",
+                value: 0,
+              },
+              {
+                name: "隐匿",
                 value: 0,
               },
             ],
           },
           {
-            name: "stat3",
+            name: "智力",
             value: 2,
             abilities: [
               {
-                name: "ab1",
-                value: 6,
+                name: "感知",
+                value: 0,
+              },
+              {
+                name: "学识",
+                value: 0,
+              },
+              {
+                name: "医疗",
+                value: 0,
+              },
+              {
+                name: "工艺",
+                value: 0,
+              },
+              {
+                name: "灵力",
+                value: 0,
               },
             ],
           },
           {
-            name: "stat4",
+            name: "魅力",
             value: 2,
             abilities: [
               {
-                name: "ab1",
+                name: "说服",
+                value: 0,
+              },
+              {
+                name: "共情",
+                value: 0,
+              },
+              {
+                name: "表演",
+                value: 0,
+              },
+              {
+                name: "领袖",
+                value: 0,
+              },
+              {
+                name: "伪装",
                 value: 0,
               },
             ],
@@ -239,15 +263,16 @@ export default {
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        width: 20%;
+        width: 25%;
         .stat-name {
+          white-space: nowrap;
         }
         .stat-value {
           padding: 3px;
         }
       }
       .ablt-wrapper {
-        width: 80%;
+        width: 75%;
         // padding: 5px;
         display: flex;
         flex-wrap: wrap;
